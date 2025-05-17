@@ -16,7 +16,7 @@ pipeline {
 			stage('3-make another left'){
 				steps{
 					sh 'echo "walk...."'
-					sh 'cat /etc/passwd | grep ubuntu'
+					sh 'hostname'
 				}
 			}
 			stage('4-cross the street'){
